@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+html {
+    background-color: #e6e6e6;
+    font-family: sans-serif;
+    width: 100%;
+    height: 100%;   
+}
+
+h1,h2,h3,h4,p {
+    color: rgb(199, 193, 209);
+    text-align: center;
+}
+
+header {
+    display:flex;
+    flex-direction: column;
+}
+
+header > img {
+    height: 280px;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    height:2.5em;
+    background-color: rgb(5, 5, 20);
+    border: solid 1px black;
+}
+
+a {
+    color:beige;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+main {
+    background-color: rgb(0, 0, 18);
+}
+
+div {
+    justify-content: center;
+    border: 1px solid rgb(3, 0, 0);
+}
+
+.front-intro {
+    padding: 7%;
+}
+
+p {
+    text-align: center;
+    font-family: 'Noto Sans Mayan Numerals', sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 2em;
+}
+
+strong {
+    color: rgba(255, 255, 255, 0.915)
+}
+
+iframe {
+    display: flex;
+    margin:auto;
+    padding: 0px 15px;
+}
+
+footer {
+    background-color: rgb(1, 1, 4);
+    font-size: 0.5em;
+}
+
+span {
+    display: flex;
+    justify-content: space-around;
+}
+
+span > a {
+    font-size: small;
+}
+
+footer > p {
+    margin-bottom: 0em;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    justify-content: space-around;
+    margin: 15px 5px 20px 5px;
+    border: solid 1px rgb(220, 220, 220);
+    box-shadow: 0px 1px 10px rgb(220, 220, 220);
+    border-radius: 3px;
+}
+
+h1 {
+    font-size: 2em;
+    padding: 5%;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+footer {
+    margin-top: auto;
+    padding:1%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.contact > p {
+    margin-top: 2%;
+    padding: 3%;
+    font-size: medium;
+}
+
+.contact-box {
+    padding: 10vh 15vw 20vh 15vw;
+    border: none;
+}
+
+.contact-box form {
+    background-color: rgb(0, 0, 33);
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 7px rgba(220, 220, 220, 0.655);
+}
+
+.input-container {
+    border: none;
+}
+
+label {
+    color: rgb(199, 193, 209);
+}
+
+.input-container label, .input-container input, .input-container textarea {
+    width: 100%;
+    margin: 5px;
+}
+
+.input-container input, .input-container textarea {
+    background-color: rgba(255, 255, 255, 0.678);
+    border: none;
+    padding:2px;
+}
+
+#mainform-btn {
+    margin-top: 3%;
+    padding: 3px;
+    border-radius: 3px;
+    font-weight:600;
+    font-family: 'Noto Sans Mayan Numerals', sans-serif;
+    border: solid 2px rgba(255, 255, 255, 0.678);
+    color: rgb(23, 4, 53);
+}
+
+#mainform-btn:hover {
+    background-color: rgb(0, 0, 33);
+    transition: 1s;
+    color: white;
+}
